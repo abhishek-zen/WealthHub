@@ -1,0 +1,20 @@
+Below is the task you need to complete.
+
+TASK: Create a utility file for handling API calls to the Account Aggregator (AA) service. This utility should support initiating account linking requests, handling authentication/consent flows, and defining TypeScript interfaces for request and response types. Place the utility in lib/api/accountAggregator.ts. Ensure the code is compatible with the existing NEXT.js project using TypeScript. No actual partner API credentials are required (use placeholders or mock endpoints as needed for now).
+
+IMPORTANT: Implement ONLY this specific task. Check with me for each step within the task before proceeding.
+
+Focus on:
+- The exact file/component mentioned  
+- The specific functionality requested
+- Clean, working implementation
+- Ask questions if anything is unclear
+
+Don't:
+- Add extra features not requested
+- Implement multiple tasks at once
+- Create elaborate solutions
+- Move to the next task automatically
+
+
+If you need clarification or encounter blockers, ask specific questions.

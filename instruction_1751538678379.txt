@@ -1,0 +1,20 @@
+Below is the task you need to complete.
+
+TASK: Create a Shadcn Card component to display consolidated account balances on the dashboard. This component should fetch data from pages/api/accounts/balances.ts and present the total balance as well as a breakdown by account type (e.g., bank, investment, credit card). Ensure the design is visually clear, responsive, and fits the overall dashboard style. Place the component at components/dashboard/ConsolidatedBalancesCard.tsx.
+
+IMPORTANT: Implement ONLY this specific task. Check with me for each step within the task before proceeding.
+
+Focus on:
+- The exact file/component mentioned  
+- The specific functionality requested
+- Clean, working implementation
+- Ask questions if anything is unclear
+
+Don't:
+- Add extra features not requested
+- Implement multiple tasks at once
+- Create elaborate solutions
+- Move to the next task automatically
+
+
+If you need clarification or encounter blockers, ask specific questions.

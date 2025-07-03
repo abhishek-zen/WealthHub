@@ -1,0 +1,96 @@
+Create detailed technical tasks for each story. Make the technical tasks small, focused, and implementable.
+
+APPROVED EPICS & STORIES:
+```
+Epic: Unified Account Aggregation
+Description: Enable users to link and view all their financial accounts (banks, investments, credit cards, insurance) in one dashboard.
+
+  Story: Account Linking via Account Aggregator and APIs
+  User Story: As a user, I want to securely link my bank, investment, and credit card accounts so that I can view all finances in one place.
+  Acceptance Criteria: User can initiate account linking via Account Aggregator (AA), UPI, and partner APIs., Consent and authentication required for each account type., Linked accounts are listed with status (active/failed)., Error messages guide user if linking fails.
+
+  Story: Consolidated Account View and Transaction Fetching
+  User Story: As a user, I want to see all my balances and transactions in a single dashboard so that I can monitor my financial health.
+  Acceptance Criteria: Dashboard shows consolidated balances across linked accounts., Recent transactions from all accounts are displayed and categorized., Supports joint account and edge case handling., User can filter and search transactions by type/date.
+
+Epic: Intuitive Unified Dashboard & Navigation
+Description: Modern, card-based dashboard for banking, investments, spending, and tax at a glance. Seamless navigation across all financial modules.
+
+  Story: Personalized Dashboard Layout
+  User Story: As a user, I want a personalized, card-based financial dashboard so that I can see what matters to me at a glance.
+  Acceptance Criteria: Dashboard is responsive and mobile-first., Cards show banking, investments, spending, and tax data., User segment (e.g., business, millennial) affects default dashboard layout., Quick links and shortcuts available for key actions.
+
+  Story: Deep Drill-Down and Navigation
+  User Story: As a user, I want to easily drill down into account, transaction, and goal details from the dashboard so that I can manage my finances efficiently.
+  Acceptance Criteria: User can click any card to view detailed data and analytics., Breadcrumbs and navigation cues are clear and contextual., All major modules are accessible within 2 clicks.
+
+Epic: Multi-Factor Authentication (MFA) for All Sensitive Actions
+Description: Enforce OTP/TOTP-based MFA for login, fund transfers, profile changes, and password resets.
+
+  Story: MFA for Login and Sensitive Actions
+  User Story: As a user, I want to securely log in and perform sensitive actions only after multi-factor authentication so that my account is protected from unauthorized access.
+  Acceptance Criteria: OTP-based MFA (SMS/Email) required for every login and sensitive action., App-based TOTP available for advanced users., Account auto-lock after 5 failed MFA attempts, with alert and manual reset., Audit trail for all MFA-related actions.
+
+Epic: Goal-Centric Financial Planning and Tracking
+Description: Users set, track, and manage multiple financial goals with progress analytics and AI recommendations.
+
+  Story: Create and Manage Financial Goals
+  User Story: As a user, I want to set and track personalized financial goals so that I can plan and manage my future finances.
+  Acceptance Criteria: User can create, edit, and delete goals (amount, target date, priority)., Real-time progress tracking based on linked accounts and transactions., Automated alerts for off-track goals or missed milestones., AI-driven generic recommendations for goal optimization.
+
+Epic: Deep Indian Integration: UPI, GST, Tax, and Local Product Support
+Description: Integrates UPI payment initiation and history, GST input/output reconciliation, Indian tax calculators, and compliance localization.
+
+  Story: UPI Payment Initiation and History
+  User Story: As a user, I want to initiate UPI payments and view my transaction history within the app so that I can manage transfers easily.
+  Acceptance Criteria: User can initiate UPI transfers from linked accounts., Full UPI transaction history available in dashboard., Error handling and user guidance for failed transfers.
+
+  Story: GST and Tax Tools for Indian Users
+  User Story: As a business or individual user, I want access to GST reconciliation and Indian tax calculators so that I can meet my compliance needs.
+  Acceptance Criteria: GST input/output reconciliation available for business users., Indian tax calculators for individuals and SMEs., Local language and compliance localization for relevant features.
+
+Epic: Role-Based Access Control (RBAC)
+Description: Ensure users and admins only access what their role allows; logs and dual approvals for sensitive actions.
+
+  Story: Role Definition and Permission Enforcement
+  User Story: As an admin, I want to assign and enforce roles for users, staff, and super-admins so that access is controlled and compliant.
+  Acceptance Criteria: Roles are defined for each user type (regular, business, support, admin)., Access to data/features is restricted by role., Dual approval required for privileged actions., Automated alerts for suspicious or escalated activity.
+
+Epic: Continuous Security Monitoring & Immutable Audit Logging
+Description: Real-time security monitoring; tamper-proof logs for all sensitive actions.
+
+  Story: Security Monitoring and Audit Logging
+  User Story: As a compliance officer, I want all sensitive actions to be logged immutably and monitored in real time so that we can meet regulatory and security requirements.
+  Acceptance Criteria: All sensitive user/system actions are logged with immutable, tamper-proof technology., Real-time monitoring and alerts for suspicious events., Secure, periodic review of logs for compliance.
+
+```
+
+TASK CREATION REQUEST:
+```
+Create detailed technical tasks for each user story under the approved MVP epics: Unified Account Aggregation, Intuitive Unified Dashboard & Navigation, Multi-Factor Authentication, Goal-Centric Financial Planning, Deep Indian Integration (UPI, GST, Tax), Role-Based Access Control, and Continuous Security Monitoring & Immutable Audit Logging. Ensure each task is clear, actionable, and mapped to its corresponding story. The platform is a NEXT.js project with Tailwind CSS and Shadcn UI.
+
+- RESPOND BACK WITH a list of detailed technical tasks against each story and epic it belongs to.
+- DO NOT RESPOND WITH JUST A SUMMARY OF THE TASKS.
+- PROVIDE THE COMPLETE CHECKLIST OF TASKS.
+```
+
+
+IMPORTANT: 
+- Format your response as a list of specific tasks againt each story and epic it belongs to.
+- Create detailed technical task checklist for the above stories. Break each story into small, implementable tasks.
+- Only create tasks, do not implement anything yet
+- Focus on technical breakdown of the stories
+- Ensure tasks are ordered by dependency
+- Provide the complete list of tasks.
+
+Each task should be:
+- ONE specific action (create/modify/add/test)
+- ONE file or component focus
+- Doable in one session
+- IMPORTANT: Create as many steps as needed and keep the tasks as small as possible
+
+Do NOT include:
+- Phase planning
+- Timeline estimates  
+- Multiple files per task
+- Project management details
