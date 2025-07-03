@@ -1,0 +1,20 @@
+Below is the task you need to complete.
+
+TASK: Create the UI for advanced users to set up app-based TOTP (Time-based One-Time Password). Place the component at components/auth/TotpSetup.tsx. Display a QR code (generated from backend) and input for the verification code, using Shadcn Form components for input. Ensure the user can scan the code with an authenticator app and enter the TOTP code to complete setup.
+
+IMPORTANT: Implement ONLY this specific task. Check with me for each step within the task before proceeding.
+
+Focus on:
+- The exact file/component mentioned  
+- The specific functionality requested
+- Clean, working implementation
+- Ask questions if anything is unclear
+
+Don't:
+- Add extra features not requested
+- Implement multiple tasks at once
+- Create elaborate solutions
+- Move to the next task automatically
+
+
+If you need clarification or encounter blockers, ask specific questions.
